@@ -1,0 +1,17 @@
+gj - greppable json
+====================
+gj is a tool inspired by gron that spits out json in a greppable format.
+
+Installation:
+-------------
+% mk && mk install
+
+Usage:
+------
+gj can be used in a pipe or with a filename as an argument:
+% cat foo.json |gj
+% gj foo.json
+
+License:
+--------
+MIT
